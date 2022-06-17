@@ -1,6 +1,7 @@
 .player-info{
   display: grid;
   grid-template-columns: 1fr fill;
+  margin-bottom: 20px;
 
   .delays {
     margin-left: 6px;
@@ -9,5 +10,9 @@
 }
 
 .wrapper{
-  margin: 0px 50px;
+  margin: 0px 32px;
+
+  @media only screen and (min-width: 768px) {
+    margin: 0px 50px;
+  }
 }
